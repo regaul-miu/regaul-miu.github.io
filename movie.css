@@ -1,0 +1,163 @@
+/*======================================
+				Creator: Md Regaul Karim
+        ID: 614595
+				DATE:09-07-2022
+				Project Name: TMNT - Rancid Tomatoes
+=======================================*/
+body{
+  background: url(images/background.png) repeat;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 8pt;
+}
+
+/*===========@Global Styles ============*/
+*{margin:0; padding:0; outline:none}
+
+
+/*========== Banner =========*/
+#banner{
+  width: 100%;
+  height: 50px;
+  background:url(images/bannerbg.png) repeat-x ;
+}
+.bannerContent{
+  width: 800px;
+  height: 50px;
+  margin: 0 auto;
+}
+/*======= Heading ===========*/
+h1 {
+    width: 100%;
+    text-align: center;
+    font-size: 24pt;
+    line-height: 30pt;
+    margin: 25px 0;
+    text-shadow: 3px 3px #999999;
+}
+
+/*======= Content ===========*/
+#contentArea{
+  width: 800px;
+  margin: 0 auto;
+  border: 4px solid gray;
+  border-radius: 20px;
+  overflow: hidden;
+}
+/*------ CriticReviewPart -----*/
+.criticReviewPart{
+  width: 550px;
+  float: left;
+}
+.ratingBox{
+  width: 100%;
+  height: 83px;
+  background: url(images/rbg.png) repeat-x;
+}
+h2.rating{
+  background: url(images/rottenbig.png) no-repeat left top;
+  font-size: 48pt;
+  color: red;
+  line-height: 83px;
+  padding-left: 105px;
+}
+.criticReviewInnerPart{
+  width: 100%;
+  overflow:hidden;
+  padding: 10pt 0;
+}
+.reviewCol{
+  width: 47%;
+  padding-left: 2%;
+  float: left;
+}
+.reviewItem{
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 20pt;
+}
+.reviewCommentBox{
+  width: 94%;
+  padding: 2%;
+  background-color: #E8DC9B;
+  border: 2px solid gray;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.reviewCommentBox p{
+  font-weight: bold;
+  line-height: 12pt;
+}
+.reviewCommentBox img{
+  width: 25px;
+  height: 25px;
+  float: left;
+  margin-right: 5px;
+}
+.reviewerInfo{
+  width: 100%;
+  padding-top: 10pt;
+}
+.reviewerInfo img{
+  width: 35px;
+  height: 33px;
+  float: left;
+  margin-right: 5px;
+}
+.reviewerInfo h5{
+  font-weight: normal;
+  font-size: 8pt;
+  line-height: 12pt;
+}
+.reviewerInfo h6{
+  font-style: italic;
+  font-weight: normal;
+  font-size: 8pt;
+  line-height: 10pt;
+}
+/*------ GeneralOverviewPart -----*/
+.generalOverviewPart{
+  width: 250px;
+  float: right;
+  background-color: #A2B964;
+  font-size: 8pt;
+}
+.innerGeneralOverview{
+  padding: 10pt;
+}
+.innerGeneralOverview dl{
+  width: 100%;
+  list-style: none;
+}
+.innerGeneralOverview dl dt{
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 10pt;
+  margin: 10px 0 0 0;
+}
+.innerGeneralOverview dl dd{
+  line-height: 15pt;
+  padding-left: 50px;
+}
+.innerGeneralOverview dl dd ul{
+  list-style: none;
+}
+
+/*======= BottomBar ===========*/
+.bottomBar{
+  width: 100%;
+  padding: 5px 0;
+  background: #A2B964;
+  overflow: hidden;
+}
+.bottomBar p{
+  text-align: center;
+  line-height: 12pt;
+}
+
+/*======= Validation ===========*/
+.validation{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  opacity: .5;
+}
